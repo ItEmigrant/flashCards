@@ -1,6 +1,7 @@
 .typography {
   &.light {
     color: black;
+    background-color: white;
 
     &.link1,
     &.link2 {
@@ -10,13 +11,16 @@
 
   &.dark {
     color: white;
+    background-color: black;
 
     &.link1,
     &.link2 {
       color: blue;
     }
   }
+}
 
+/*
   &.body1,
   &.body2,
   &.caption,
@@ -27,6 +31,5 @@
   &.overline,
   &.subtitle1,
   &.subtitle2 {
-
   }
-}
+} */
